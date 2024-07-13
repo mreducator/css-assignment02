@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-Assignment02 QueNo.10</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+        }
+        #parent{
+            display: flex;
+            gap: 55px;
+        }
+        .image_container{
+            height: 380px;
+            width: 380px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-radius: 5%;
+            background-color: lightcoral;
+        }
+        .image_container img{
+            height: 80%;
+            width: 95%;
+            border-radius: 5%;
+        }
+         #img1{
+            opacity: 0.5;
+        }
+        #img1:hover{
+            opacity: 1;
+        }
+        p{
+            margin-right: 100px;
+        }
+        p span{
+            font-size: large;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+   <div id="parent">
+    <div class="image_container" id="img1">
+        <img src="./image/Physics_wallah_logo.jpg" alt="">
+        <p> Course Name: FSWD2.0</p>
+    </div>
+   
+   </div>
+</body>
+</html>
